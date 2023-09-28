@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.countries{
+    width: 100%;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.single-item{
+    text-align: center;
+    padding: 10px;
+    border: 5px solid red;
+}
